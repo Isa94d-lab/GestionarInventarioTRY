@@ -39,3 +39,44 @@
 /home/camper/Escritorio/GestionarInventarioTRY/obj/Debug/net8.0/GestionInventario.pdb
 /home/camper/Escritorio/GestionarInventarioTRY/obj/Debug/net8.0/GestionInventario.genruntimeconfig.cache
 /home/camper/Escritorio/GestionarInventarioTRY/obj/Debug/net8.0/ref/GestionInventario.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\GestionInventario.exe
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\GestionInventario.deps.json
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\GestionInventario.runtimeconfig.json
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\GestionInventario.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\GestionInventario.pdb
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\Google.Protobuf.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\MySql.Data.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Text.Json.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\ZstdSharp.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.csproj.AssemblyReference.cache
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.AssemblyInfoInputs.cache
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.AssemblyInfo.cs
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.csproj.CoreCompileInputs.cache
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.sourcelink.json
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionI.14355B1F.Up2Date
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\refint\GestionInventario.dll
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.pdb
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\GestionInventario.genruntimeconfig.cache
+D:\1 Usuario\Desktop\EJERCICIOS PROGRAMACION\GestionarInventarioTRY\obj\Debug\net8.0\ref\GestionInventario.dll

@@ -16,6 +16,6 @@ public class MySqlDbFactory : IDbFactory
 
     public IPaisRepository CrearPaisRepository()
     {
-        return new lmpClienteRepository(_connectionString);
+        return new lmpPaisRepository(_connectionString);
     }
 }

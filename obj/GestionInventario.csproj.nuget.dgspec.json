@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/camper/Escritorio/GestionarInventarioTRY/GestionInventario.csproj": {}
+    "D:\\1 Usuario\\Desktop\\EJERCICIOS PROGRAMACION\\GestionarInventarioTRY\\GestionInventario.csproj": {}
   },
   "projects": {
-    "/home/camper/Escritorio/GestionarInventarioTRY/GestionInventario.csproj": {
+    "D:\\1 Usuario\\Desktop\\EJERCICIOS PROGRAMACION\\GestionarInventarioTRY\\GestionInventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/camper/Escritorio/GestionarInventarioTRY/GestionInventario.csproj",
+        "projectUniqueName": "D:\\1 Usuario\\Desktop\\EJERCICIOS PROGRAMACION\\GestionarInventarioTRY\\GestionInventario.csproj",
         "projectName": "GestionInventario",
-        "projectPath": "/home/camper/Escritorio/GestionarInventarioTRY/GestionInventario.csproj",
-        "packagesPath": "/home/camper/.nuget/packages/",
-        "outputPath": "/home/camper/Escritorio/GestionarInventarioTRY/obj/",
+        "projectPath": "D:\\1 Usuario\\Desktop\\EJERCICIOS PROGRAMACION\\GestionarInventarioTRY\\GestionInventario.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "D:\\1 Usuario\\Desktop\\EJERCICIOS PROGRAMACION\\GestionarInventarioTRY\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/camper/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.408/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

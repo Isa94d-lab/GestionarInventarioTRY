@@ -6,11 +6,11 @@ using MySql.Data.MySqlClient;
 
 namespace GESTIONINVENTARIOTRY.Infrastructure.Repositories;
 
-public class lmpClienteRepository : IGenericRepository<Pais>, IPaisRepository
+public class lmpPaisRepository : IGenericRepository<Pais>, IPaisRepository
 {
     private readonly ConexionSingleton _conexion;
 
-    public lmpClienteRepository(string connectionString)
+    public lmpPaisRepository(string connectionString)
     {
         _conexion = ConexionSingleton.Instancia(connectionString);
     }
@@ -20,7 +20,7 @@ public class lmpClienteRepository : IGenericRepository<Pais>, IPaisRepository
         var paises = new List<Pais>();
         var connection = _conexion.ObtenerConexion();
 
-        string query = "SELECT id, nombre FROM paises";
+        string query = "SELECT id, nombre FROM pais";
         using var cmd = new MySqlCommand(query, connection);
         using var reader = cmd.ExecuteReader();
 
@@ -39,7 +39,7 @@ public class lmpClienteRepository : IGenericRepository<Pais>, IPaisRepository
     public void Crear(Pais pais)
     {
         var connection = _conexion.ObtenerConexion();
-        string query = "INSERT INTO paises (nombre) VALUES (@nombre)";
+        string query = "INSERT INTO pais (nombre) VALUES (@nombre)";
         using var cmd = new MySqlCommand(query, connection);
         cmd.Parameters.AddWithValue("@nombre", pais.Nombre);
         cmd.ExecuteNonQuery();
@@ -48,7 +48,7 @@ public class lmpClienteRepository : IGenericRepository<Pais>, IPaisRepository
     public void Actualizar(Pais pais)
     {
         var connection = _conexion.ObtenerConexion();
-        string query = "UPDATE clientes SET nombre = @nombre WHERE id = @id";
+        string query = "UPDATE pais SET nombre = @nombre WHERE id = @id";
         using var cmd = new MySqlCommand(query, connection);
         cmd.Parameters.AddWithValue("@nombre", pais.Nombre);
         cmd.Parameters.AddWithValue("@id", pais.Id);
@@ -58,7 +58,7 @@ public class lmpClienteRepository : IGenericRepository<Pais>, IPaisRepository
     public void Eliminar(int id)
     {
         var connection = _conexion.ObtenerConexion();
-        string query = "DELETE FROM paises WHERE id = @id";
+        string query = "DELETE FROM pais WHERE id = @id";
         using var cmd = new MySqlCommand(query, connection);
         cmd.Parameters.AddWithValue("@id", id);
         cmd.ExecuteNonQuery();

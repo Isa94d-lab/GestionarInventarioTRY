@@ -27,12 +27,12 @@ public class PaisService
         _repo.Crear(new Pais { Nombre = nombre });
     }
 
-    public void ActualizarCliente(int id, string nuevoNombre)
+    public void ActualizarPais(int id, string nuevoNombre)
     {
         _repo.Actualizar(new Pais { Id = id, Nombre = nuevoNombre });
     }
 
-    public void EliminarCliente(int id)
+    public void EliminarPais(int id)
     {
         _repo.Eliminar(id);
     }
