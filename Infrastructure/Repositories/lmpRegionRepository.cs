@@ -6,11 +6,11 @@ using MySql.Data.MySqlClient;
 
 namespace GESTIONINVENTARIOTRY.Infrastructure.Repositories
 {
-    public class LmpRegionRepository : IRegionRepository
+    public class lmpRegionRepository : IRegionRepository
     {
         private readonly ConexionSingleton _conexion;
 
-        public LmpRegionRepository(string connectionString)
+        public lmpRegionRepository(string connectionString)
         {
             _conexion = ConexionSingleton.Instancia(connectionString);
         }

@@ -26,6 +26,11 @@ public class MySqlDbFactory : IDbFactory
 
     public IRegionRepository CrearRegionRepository()
     {
-        return new LmpRegionRepository(_connectionString);
+        return new lmpRegionRepository(_connectionString);
+    }
+
+    public ICiudadRepository CrearCiudadRepository()
+    {
+        return new lmpCiudadRepository(_connectionString);
     }
 }

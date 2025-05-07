@@ -1,7 +1,7 @@
 ﻿using GESTIONINVENTARIOTRY.Application.Services;
-using GESTIONINVENTARIOTRY.Domain.Entities;
 using GESTIONINVENTARIOTRY.Domain.Factory;
 using GESTIONINVENTARIOTRY.Infrastructure.Mysql;
+using System;
 
 internal class Program
 {
@@ -13,6 +13,7 @@ internal class Program
         var paisService = new PaisService(factory.CrearPaisRepository());
         var facturacionService = new FacturacionService(factory.CrearFacturacionRepository());
         var regionService = new RegionService(factory.CrearRegionRepository());
+        var ciudadService = new CiudadService(factory.CrearCiudadRepository()); // ✅ Nuevo
 
         while (true)
         {
@@ -26,7 +27,7 @@ internal class Program
             switch (opcion)
             {
                 case "1":
-                    MenuPaises(paisService, regionService);
+                    MenuPaises(paisService, regionService, ciudadService);
                     break;
                 case "2":
                     MenuFacturacion(facturacionService);
@@ -40,7 +41,7 @@ internal class Program
         }
     }
 
-    private static void MenuPaises(PaisService paisService, RegionService regionService)
+    private static void MenuPaises(PaisService paisService, RegionService regionService, CiudadService ciudadService)
     {
         while (true)
         {
@@ -80,7 +81,7 @@ internal class Program
                 case "5":
                     Console.Write("Ingrese el ID del pais para gestionar regiones: ");
                     int paisId = int.Parse(Console.ReadLine()!);
-                    MenuRegiones(regionService, paisId);
+                    MenuRegiones(regionService, ciudadService, paisId);
                     break;
                 case "0":
                     return;
@@ -91,7 +92,7 @@ internal class Program
         }
     }
 
-    private static void MenuRegiones(RegionService regionService, int paisId)
+    private static void MenuRegiones(RegionService regionService, CiudadService ciudadService, int paisId)
     {
         while (true)
         {
@@ -100,6 +101,7 @@ internal class Program
             Console.WriteLine("2. Crear nueva");
             Console.WriteLine("3. Actualizar");
             Console.WriteLine("4. Eliminar");
+            Console.WriteLine("5. Gestionar Ciudades"); // ✅ Nueva opción
             Console.WriteLine("0. Volver");
             Console.Write("Opcion: ");
             var opcion = Console.ReadLine();
@@ -125,6 +127,55 @@ internal class Program
                     Console.Write("ID de la region a eliminar: ");
                     int idEliminarRegion = int.Parse(Console.ReadLine()!);
                     regionService.EliminarRegion(idEliminarRegion);
+                    break;
+                case "5":
+                    Console.Write("Ingrese el ID de la region para gestionar ciudades: ");
+                    int regionId = int.Parse(Console.ReadLine()!);
+                    MenuCiudades(ciudadService, regionId);
+                    break;
+                case "0":
+                    return;
+                default:
+                    Console.WriteLine("❌ Opcion invalida.");
+                    break;
+            }
+        }
+    }
+
+    private static void MenuCiudades(CiudadService ciudadService, int regionId)
+    {
+        while (true)
+        {
+            Console.WriteLine("\n--- GESTION DE CIUDADES ---");
+            Console.WriteLine("1. Mostrar todas");
+            Console.WriteLine("2. Crear nueva");
+            Console.WriteLine("3. Actualizar");
+            Console.WriteLine("4. Eliminar");
+            Console.WriteLine("0. Volver");
+            Console.Write("Opcion: ");
+            var opcion = Console.ReadLine();
+
+            switch (opcion)
+            {
+                case "1":
+                    ciudadService.MostrarTodas(regionId);
+                    break;
+                case "2":
+                    Console.Write("Nombre de la ciudad: ");
+                    string nombreCiudad = Console.ReadLine()!;
+                    ciudadService.CrearCiudad(nombreCiudad, regionId);
+                    break;
+                case "3":
+                    Console.Write("ID de la ciudad a actualizar: ");
+                    int idCiudad = int.Parse(Console.ReadLine()!);
+                    Console.Write("Nuevo nombre: ");
+                    string nuevoNombreCiudad = Console.ReadLine()!;
+                    ciudadService.ActualizarCiudad(idCiudad, nuevoNombreCiudad, regionId);
+                    break;
+                case "4":
+                    Console.Write("ID de la ciudad a eliminar: ");
+                    int idEliminarCiudad = int.Parse(Console.ReadLine()!);
+                    ciudadService.EliminarCiudad(idEliminarCiudad);
                     break;
                 case "0":
                     return;
