@@ -8,7 +8,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string connStr = "server=localhost;database=sgi_campus;user=campus2023;password=campus2023;";
+        string connStr = "server=localhost;database=sgi_campus;user=root;password=5comentariosxdd.;";
         IDbFactory factory = new MySqlDbFactory(connStr);
         var servicio = new PaisService(factory.CrearPaisRepository());
         var servicioPais = new PaisService(factory.CrearPaisRepository());
@@ -46,12 +46,12 @@ internal class Program
                     Console.Write("ID a actualizar: ");
                     int idA = int.Parse(Console.ReadLine()!);
                     Console.Write("Nuevo nombre: ");
-                    servicio.ActualizarCliente(idA, Console.ReadLine()!);
+                    servicio.ActualizarPais(idA, Console.ReadLine()!);
                     break;
                 case "4":
                     Console.Write("ID a eliminar: ");
                     int idE = int.Parse(Console.ReadLine()!);
-                    servicio.EliminarCliente(idE);
+                    servicio.EliminarPais(idE);
                     break;
                 case "0":
                     return;
