@@ -23,4 +23,9 @@ public class MySqlDbFactory : IDbFactory
     {
         return new lmpFacturacionRepository(_connectionString);
     }
+
+    public IRegionRepository CrearRegionRepository()
+    {
+        return new LmpRegionRepository(_connectionString);
+    }
 }

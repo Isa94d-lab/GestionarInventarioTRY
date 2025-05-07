@@ -8,5 +8,7 @@ public interface IDbFactory
     IPaisRepository CrearPaisRepository();
 
     IFacturacionRepository CrearFacturacionRepository();
+
+    IRegionRepository CrearRegionRepository();
     
 }
