@@ -8,17 +8,15 @@ using GESTIONINVENTARIOTRY.Domain.Factory;
 
 namespace GESTIONINVENTARIOTRY.Application.UI.Clientes
 {
-    public class UIPais
+    public class UIFacturacion
     {
         
-       
         private readonly IDbFactory _factory;
         //var servicio = new ClienteService(factory.CrearClienteRepository());
 
-        public UIPais(IDbFactory factory)
+        public UIFacturacion(IDbFactory factory)
         {
             _factory = factory;
-
 
         }
     }

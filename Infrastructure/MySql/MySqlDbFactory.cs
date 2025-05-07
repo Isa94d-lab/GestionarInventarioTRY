@@ -18,4 +18,9 @@ public class MySqlDbFactory : IDbFactory
     {
         return new lmpPaisRepository(_connectionString);
     }
+
+    public IFacturacionRepository CrearFacturacionRepository()
+    {
+        return new lmpFacturacionRepository(_connectionString);
+    }
 }

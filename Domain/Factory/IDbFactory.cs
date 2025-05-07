@@ -6,5 +6,7 @@ namespace GESTIONINVENTARIOTRY.Domain.Factory;
 public interface IDbFactory
 {
     IPaisRepository CrearPaisRepository();
+
+    IFacturacionRepository CrearFacturacionRepository();
     
 }
